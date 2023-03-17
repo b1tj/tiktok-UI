@@ -23,13 +23,16 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
     color: var(--text-color);
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
 button,
